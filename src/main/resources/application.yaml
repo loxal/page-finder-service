@@ -1,0 +1,69 @@
+# Copyright 2026 Alexander Orlov <alexander.orlov@loxal.net>
+
+
+logging:
+  level:
+    org.springframework.web: INFO
+    # Reduce noise from Netty and Reactor
+    io.netty: WARN
+    reactor.netty: WARN
+
+server:
+#     security:
+#         require-ssl: true
+#     http2:
+#         enabled: true
+#     http:
+#         port: 8002
+#     ssl:
+#         enabled: ${IS_PROD:false}
+#         key-store: file:${HOME}/srv/cert/letsencrypt_keystore.p12
+#         key-store-password: ${ADMIN_SITE_SECRET}
+#         key-store-type: PKCS12
+#         key-alias: letsencrypt
+#     port: 7443
+    port: 8001
+    # Enable HTTP/2 for better performance
+    http2:
+      enabled: true
+
+spring:
+  aop:
+    auto: false
+  groovy:
+    template:
+      check-template-location: false
+      enabled: false
+  profiles:
+    active: prod
+  main:
+    banner-mode: "off"
+  output:
+    ansi:
+      enabled: always
+  quartz:
+    auto-startup: false
+  application:
+    name: page-finder
+  # Enable virtual threads (Project Loom) for better concurrency - Spring Boot 4+
+  threads:
+    virtual:
+      enabled: true
+
+# SpringDoc OpenAPI Configuration
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operationsSorter: method
+    tagsSorter: alpha
+    displayRequestDuration: true
+    showExtensions: true
+    showCommonExtensions: true
+  show-actuator: false
+  default-produces-media-type: application/json
+  default-consumes-media-type: application/json
+  writer-with-order-by-keys: true

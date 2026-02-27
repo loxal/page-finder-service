@@ -1,0 +1,10 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  devtools:
+    add-properties: false
+    livereload:
+      enabled: false
+    restart:
+      enabled: false

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  ~ Copyright 2020 Alexander Orlov <alexander.orlov@loxal.net>. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<documents count="50">
+    <Document>
+        <url>
+            https://ru.wikipedia.org/wiki/Шкала_Кардашёва
+        </url>
+        <id>8f15ba60-e966-11e9-951f-ff7c68bbb9da</id>
+        <title>Шкала Кардашёва - Wikipedia</title>
+        <language>ru</language>
+        <body>Technological level of a civilization that is "close to the level presently attained on earth, with energy
+            consumption at ≈4×1019 erg/sec" (4×1012 watts).[1] Currently, the civilization of Type I is usually defined
+            as one that can harness all the energy that falls on a planet from its parent star (for Earth–Sun system,
+            this value is close to 1.74×1017 watts), which is about four orders of magnitude higher than the amount
+            presently attained on Earth, with energy consumption at ≈2×1013 watts. The astronomer Guillermo A.
+            Lemarchand stated this as a level near contemporary terrestrial civilization with an energy capability
+            equivalent to the solar insolation on Earth, between 1016 and 1017 watts.[2]
+        </body>
+    </Document>
+    <Document>
+        <url>
+            https://ru.wikipedia.org/wiki/Шкала_Кардашёва2
+        </url>
+        <id>8f15ba60-e966-11e9-951f-ff7c68bbb9d1</id>
+        <title>Шкала Кардашёва II - Wikipedia</title>
+        <language>ru</language>
+        <body>Technological level of a civilization that is "close to the level presently attained on earth, with energy
+            consumption at ≈4×1019 erg/sec" (4×1012 watts).[1]
+        </body>
+    </Document>
+    <Document>
+        <url>
+            https://ru.wikipedia.org/wiki/Шкала_Кардашёва3
+        </url>
+        <id>8f15ba60-e966-11e9-951f-ff7c68bbb9d6</id>
+        <title>Шкала Кардашёва III - Wikipedia</title>
+        <language>ru</language>
+        <body>Lemarchand stated this as a level near contemporary terrestrial civilization with an energy capability
+            equivalent to the solar insolation on Earth, between 1016 and 1017 watts.[2]
+        </body>
+    </Document>
+</documents>

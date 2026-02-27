@@ -1,0 +1,16 @@
+spring:
+  main:
+    lazy-initialization: true
+  devtools:
+    add-properties: true
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+  profiles:
+    active: dev
+logging:
+  level:
+    net.loxal.finder: INFO
+  pattern:
+    console: "%thread %clr(%15.-15logger{0}) %95msg%n"

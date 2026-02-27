@@ -1,0 +1,16 @@
+// Copyright 2026 Alexander Orlov <alexander.orlov@loxal.net>
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "page-finder-service"
+
+//noinspection UnstableApiUsage
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
